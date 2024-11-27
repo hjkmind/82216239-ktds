@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>template</artifactId>
+	<artifactId>cloud</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>template</name>
+	<name>82216239</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -29,6 +29,21 @@
 	<properties>
 		<java.version>17</java.version>
 	</properties>
+
+	<repositories>
+		<repository>
+			<id>github</id>
+			<url>https://maven.pkg.github.com/hjkmind/82216239-ktds</url>
+		</repository>
+	</repositories>
+
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub sloppy-cat Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/hjkmind/82216239-ktds</url>
+		</repository>
+	</distributionManagement>
 
 	<dependencies>
 	    <dependency>
